@@ -10,7 +10,7 @@ import (
 type Customer struct {
 	Customerid string `json:"customerid"`
 	Email      string `json:"email"`
-	Phone      string `jsong:"phone"`
+	Phone      int    `jsong:"phone"`
 }
 
 type Repository interface {
